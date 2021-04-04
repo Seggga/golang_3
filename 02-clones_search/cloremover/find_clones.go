@@ -6,12 +6,15 @@ import (
 	"os"
 	"path/filepath"
 	"sort"
+
+	"github.com/sirupsen/logrus"
 )
 
-// Clones looks for clone-files in the given directory and it's subdirectories
-func FindClones(conf *ConfigType) ([]fileData, error) {
+// FindClones looks for clone-files in the given directory and it's subdirectories
+func FindClones(conf *ConfigType, log logrus.FieldLogger) ([]fileData, error) {
 
 	//enumerate all subdirectories in the given dirPath
+	log.Debug("try to enumerate subdirectories in the given directory")
 	dirSlice, err := enumDirs(conf)
 	if err != nil {
 		return nil, err
@@ -30,6 +33,7 @@ func FindClones(conf *ConfigType) ([]fileData, error) {
 	go manager(pool, ch)
 	// start ch-writers - one goroutine for each subdirectory
 	for _, someDir := range dirSlice {
+		log.Debugf("try to read all files in the directory %s", someDir)
 		go func(someDir string) {
 			enumFiles(someDir, ch)
 			pool <- struct{}{}
@@ -40,8 +44,9 @@ func FindClones(conf *ConfigType) ([]fileData, error) {
 	for someData := range ch {
 		fileSlice = append(fileSlice, someData)
 	}
-
+	log.Debug("list of files has been constructed")
 	// obtain slice of clone-files only
+	log.Debug("try to filter out unique files")
 	return filterUnique(fileSlice), nil
 }
 
