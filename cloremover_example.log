@@ -1,0 +1,41 @@
+{"level":"info","msg":"logging started","time":"2021-04-04T22:39:49+03:00"}
+{"level":"info","msg":"command-line parameters:","time":"2021-04-04T22:39:49+03:00"}
+{"level":"info","msg":"cl-param directory: c:\\temp","time":"2021-04-04T22:39:49+03:00"}
+{"level":"info","msg":"cl-param remove flag: false","time":"2021-04-04T22:39:49+03:00"}
+{"level":"info","msg":"cl-param confirm flag: on","time":"2021-04-04T22:39:49+03:00"}
+{"level":"info","msg":"cl-param show files: 10","time":"2021-04-04T22:39:49+03:00"}
+{"level":"info","msg":"cl-param directory limit: 0","time":"2021-04-04T22:39:49+03:00"}
+{"level":"info","msg":"cl-param logfile: cloremover.log","time":"2021-04-04T22:39:49+03:00"}
+{"level":"debug","msg":"try to enumerate subdirectories in the given directory","time":"2021-04-04T22:39:49+03:00"}
+{"level":"debug","msg":"try to read all files in the directory c:\\temp","time":"2021-04-04T22:39:49+03:00"}
+{"level":"debug","msg":"try to read all files in the directory c:\\temp\\temp2","time":"2021-04-04T22:39:49+03:00"}
+{"level":"debug","msg":"try to read all files in the directory c:\\temp\\temp2\\temp4","time":"2021-04-04T22:39:49+03:00"}
+{"level":"debug","msg":"try to read all files in the directory c:\\temp\\temp3","time":"2021-04-04T22:39:49+03:00"}
+{"level":"debug","msg":"list of files has been constructed","time":"2021-04-04T22:39:49+03:00"}
+{"level":"debug","msg":"try to filter out unique files","time":"2021-04-04T22:39:49+03:00"}
+{"level":"debug","msg":"list of clones has been constructed, show results","time":"2021-04-04T22:39:49+03:00"}
+{"level":"debug","msg":"The flag '-remove' was not set.","time":"2021-04-04T22:39:49+03:00"}
+{"level":"info","msg":"Program exit.","time":"2021-04-04T22:39:49+03:00"}
+{"level":"info","msg":"logging started","time":"2021-04-04T22:41:08+03:00"}
+{"level":"info","msg":"command-line parameters:","time":"2021-04-04T22:41:08+03:00"}
+{"level":"info","msg":"cl-param directory: c:\\temp","time":"2021-04-04T22:41:08+03:00"}
+{"level":"info","msg":"cl-param remove flag: true","time":"2021-04-04T22:41:08+03:00"}
+{"level":"info","msg":"cl-param confirm flag: on","time":"2021-04-04T22:41:08+03:00"}
+{"level":"info","msg":"cl-param show files: 10","time":"2021-04-04T22:41:08+03:00"}
+{"level":"info","msg":"cl-param directory limit: 0","time":"2021-04-04T22:41:08+03:00"}
+{"level":"info","msg":"cl-param logfile: cloremover.log","time":"2021-04-04T22:41:08+03:00"}
+{"level":"debug","msg":"try to enumerate subdirectories in the given directory","time":"2021-04-04T22:41:08+03:00"}
+{"level":"debug","msg":"try to read all files in the directory c:\\temp","time":"2021-04-04T22:41:08+03:00"}
+{"level":"debug","msg":"try to read all files in the directory c:\\temp\\temp2","time":"2021-04-04T22:41:08+03:00"}
+{"level":"debug","msg":"try to read all files in the directory c:\\temp\\temp2\\temp4","time":"2021-04-04T22:41:08+03:00"}
+{"level":"debug","msg":"try to read all files in the directory c:\\temp\\temp3","time":"2021-04-04T22:41:08+03:00"}
+{"level":"debug","msg":"list of files has been constructed","time":"2021-04-04T22:41:08+03:00"}
+{"level":"debug","msg":"try to filter out unique files","time":"2021-04-04T22:41:08+03:00"}
+{"level":"debug","msg":"list of clones has been constructed, show results","time":"2021-04-04T22:41:08+03:00"}
+{"level":"debug","msg":"user choice about a file to delete is 3","time":"2021-04-04T22:41:28+03:00"}
+{"level":"debug","msg":"Chosen file: %s - %d bytesfile3.txt74","time":"2021-04-04T22:41:28+03:00"}
+{"level":"debug","msg":"user choice about a directory to delete a file from is 1","time":"2021-04-04T22:41:38+03:00"}
+{"level":"debug","msg":"Entered 'yes', file will be deleted.","time":"2021-04-04T22:41:46+03:00"}
+{"level":"debug","msg":"file to be deleted is c:\\temp\\temp3\\file3.txt","time":"2021-04-04T22:41:46+03:00"}
+{"level":"info","msg":"file c:\\temp\\temp3\\file3.txt was successfully deleted","time":"2021-04-04T22:41:46+03:00"}
+{"level":"info","msg":"Program exit.","time":"2021-04-04T22:41:46+03:00"}
