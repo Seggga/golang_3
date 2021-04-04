@@ -24,6 +24,14 @@ func main() {
 		fmt.Println(err)
 		return
 	}
+	switch conf.LogLevel {
+	case "debug":
+		log.SetLevel(logrus.DebugLevel)
+	case "info":
+		log.SetLevel(logrus.InfoLevel)
+	case "error":
+		log.SetLevel(logrus.ErrorLevel)
+	}
 	log.SetFormatter(&logrus.JSONFormatter{})
 	log.SetOutput(f)
 	log.Info("logging started")
@@ -50,7 +58,8 @@ func main() {
 	}
 
 	// display data
-	outputMap := cloremover.PrintClones(fileSlice, conf, log)
+	log.Debug("list of clones has been constructed, show results")
+	outputMap := cloremover.PrintClones(fileSlice, conf)
 
 	// remove data
 	cloremover.Remove(fileSlice, conf, outputMap, log)
