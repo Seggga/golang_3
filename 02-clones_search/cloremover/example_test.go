@@ -1,7 +1,7 @@
 package cloremover_test
 
 import (
-	"github.com/Seggga/golang_2/08_clones_search/cloremover"
+	"github.com/Seggga/golang_3/02-clones_search/cloremover"
 )
 
 func Example() {
@@ -9,9 +9,9 @@ func Example() {
 	conf := &cloremover.ConfigType{}
 	_ = cloremover.ReadFlags(conf)
 	// collect data
-	fileSlice, _ := cloremover.FindClones(conf)
+	fileSlice, _ := cloremover.FindClones(conf, nil)
 	// display data
 	outputMap := cloremover.PrintClones(fileSlice, conf)
 	// remove data
-	cloremover.Remove(fileSlice, conf, outputMap)
+	cloremover.Remove(fileSlice, conf, outputMap, nil)
 }
