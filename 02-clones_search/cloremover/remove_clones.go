@@ -31,7 +31,7 @@ func Remove(fileSlice []fileData, conf *ConfigType, outputMap map[uint32]uint32,
 	for i, fileData := range fileSlice {
 		if fileData.id == outputMap[uint32(userChoice)] {
 			if !onceFlag {
-				log.Debug("Chosen file: %s - %d bytes", fileData.fileName, fileData.sizeInBytes)
+				log.Debugf("Chosen file: %s - %d bytes", fileData.fileName, fileData.sizeInBytes)
 				fmt.Printf("\nChosen file: %s - %d bytes:\n", fileData.fileName, fileData.sizeInBytes)
 				onceFlag = true
 			}
