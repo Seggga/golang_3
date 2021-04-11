@@ -1,0 +1,26 @@
+{"level":"info","msg":"logging started","time":"2021-04-10T23:07:24+03:00"}
+{"level":"info","msg":"command-line parameters:","time":"2021-04-10T23:07:24+03:00"}
+{"level":"info","msg":"cl-param directory: ","time":"2021-04-10T23:07:24+03:00"}
+{"level":"info","msg":"cl-param remove flag: false","time":"2021-04-10T23:07:24+03:00"}
+{"level":"info","msg":"cl-param confirm flag: on","time":"2021-04-10T23:07:24+03:00"}
+{"level":"info","msg":"cl-param show files: 10","time":"2021-04-10T23:07:24+03:00"}
+{"level":"info","msg":"cl-param directory limit: 0","time":"2021-04-10T23:07:24+03:00"}
+{"level":"info","msg":"cl-param logfile: cloremover.log","time":"2021-04-10T23:07:24+03:00"}
+{"level":"info","msg":"logging started","time":"2021-04-11T23:46:53+03:00"}
+{"level":"info","msg":"command-line parameters:","time":"2021-04-11T23:46:53+03:00"}
+{"level":"info","msg":"cl-param directory: c:\\go_proj\\geekbrains\\06_GO_best_practices\\GIT\\golang_3\\02-clones_search","time":"2021-04-11T23:46:53+03:00"}
+{"level":"info","msg":"cl-param remove flag: false","time":"2021-04-11T23:46:53+03:00"}
+{"level":"info","msg":"cl-param confirm flag: on","time":"2021-04-11T23:46:53+03:00"}
+{"level":"info","msg":"cl-param show files: 10","time":"2021-04-11T23:46:53+03:00"}
+{"level":"info","msg":"cl-param directory limit: 0","time":"2021-04-11T23:46:53+03:00"}
+{"level":"info","msg":"cl-param logfile: cloremover.log","time":"2021-04-11T23:46:53+03:00"}
+{"level":"info","msg":"no clone files were found in the given directory","time":"2021-04-11T23:46:53+03:00"}
+{"level":"info","msg":"logging started","time":"2021-04-11T23:47:05+03:00"}
+{"level":"info","msg":"command-line parameters:","time":"2021-04-11T23:47:05+03:00"}
+{"level":"info","msg":"cl-param directory: c:\\go_proj\\geekbrains\\06_GO_best_practices\\GIT\\golang_3\\02-clones_search","time":"2021-04-11T23:47:05+03:00"}
+{"level":"info","msg":"cl-param remove flag: false","time":"2021-04-11T23:47:05+03:00"}
+{"level":"info","msg":"cl-param confirm flag: on","time":"2021-04-11T23:47:05+03:00"}
+{"level":"info","msg":"cl-param show files: 10","time":"2021-04-11T23:47:05+03:00"}
+{"level":"info","msg":"cl-param directory limit: 0","time":"2021-04-11T23:47:05+03:00"}
+{"level":"info","msg":"cl-param logfile: cloremover.log","time":"2021-04-11T23:47:05+03:00"}
+{"level":"info","msg":"no clone files were found in the given directory","time":"2021-04-11T23:47:05+03:00"}
